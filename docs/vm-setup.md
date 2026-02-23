@@ -3,7 +3,8 @@
 # Overview
 Two Ubuntu Server 22.04 VMs created in VirtualBox to simulate a small company network.
 
-
+| VM | Role | IP | OS |
+|---|---|---|---|
 | fileserver | File Server | 10.0.0.10 | Ubuntu Server 22.04 |
 | webserver | Web Server | 10.0.0.20 | Ubuntu Server 22.04 |
 
