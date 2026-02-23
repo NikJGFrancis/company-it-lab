@@ -18,3 +18,9 @@ su - alice
 ls /company/shared/engineering   # Permission denied
 
 ![Access Control Test](https://github.com/NikJGFrancis/company-it-lab/blob/main/Company%20IT%20Lab%20Screenshots/Alice%20Access%20Controls.png)
+
+# 3. Samba Installed and Running
+sudo apt install samba -y
+sudo systemctl status smbd
+
+![Samba Running](https://github.com/NikJGFrancis/company-it-lab/blob/main/Company%20IT%20Lab%20Screenshots/systemctl%20status%20smbd%20showing%20active.png)
