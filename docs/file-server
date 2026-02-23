@@ -1,1 +1,20 @@
-#Phase 5
+# Phase 3 — File Server & Shared Folders
+
+# Overview
+Created department-based shared folders with strict Linux permissions and Samba for file sharing.
+
+# 1. Shared Folder Structure with Permissions
+sudo mkdir -p /company/shared/{hr,engineering,sales,general}
+sudo chmod 770 /company/shared/hr
+sudo chmod +t /company/shared/hr
+ls -la /company/shared/
+
+![Shared Folders](https://github.com/NikJGFrancis/company-it-lab/blob/main/Company%20IT%20Lab%20Screenshots/Shared%20Folders.png)
+
+# 2. Access Control Test
+
+Verified that users can only access their own department folders.
+su - alice
+ls /company/shared/engineering   # Permission denied
+
+![Access Control Test](https://github.com/NikJGFrancis/company-it-lab/blob/main/Company%20IT%20Lab%20Screenshots/Alice%20Access%20Controls.png)
