@@ -11,10 +11,7 @@ Analyzed system logs to identify failed login attempts, suspicious IPs, and pote
 
 ## Key Commands Used
 # Failed logins today
-sudo grep "Failed password" /var/log/auth.log
-
-# Top attacking IPs
-https://github.com/NikJGFrancis/company-it-lab/blob/main/Company%20IT%20Lab%20Screenshots/systemctl%20status%20smbd%20showing%20active.png
+- sudo grep "Failed password" /var/log/auth.log
 - sudo grep "Failed password" /var/log/auth.log | \
 - awk '{print $(NF-3)}' | sort | uniq -c | sort -rn | head -10
 
