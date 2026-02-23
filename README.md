@@ -20,11 +20,11 @@
 
 ## 📜 Scripts
 Scripts
-[onboard_user.sh](scripts/onboard_user.sh) | New employee automation |
-[backup.sh](scripts/backup.sh) | Nightly backup + remote sync |
-[monitor.sh](scripts/monitor.sh) | System health checker |
-[log_alert.sh](scripts/log_alert.sh) | Brute force detection |
-[harden.sh](scripts/harden.sh) | Server hardening |
+- [onboard_user.sh](scripts/onboard_user.sh) | New employee automation |
+- [backup.sh](scripts/backup.sh) | Nightly backup + remote sync |
+- [monitor.sh](scripts/monitor.sh) | System health checker |
+- [log_alert.sh](scripts/log_alert.sh) | Brute force detection |
+- [harden.sh](scripts/harden.sh) | Server hardening |
 
 
 ## 🛠️ Skills Demonstrated
